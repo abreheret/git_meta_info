@@ -26,7 +26,7 @@ OUTPUT_VARIABLE GIT_TAG
 OUTPUT_STRIP_TRAILING_WHITESPACE
 )
 
-message("update git mete info ")
+message("update git meta data information.")
 configure_file(
   @CMAKE_SOURCE_DIR@/git_meta_info.h.in
   @CMAKE_BINARY_DIR@/git_meta_info.h
